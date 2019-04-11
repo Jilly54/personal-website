@@ -1,0 +1,67 @@
+/*** GLOBAL STYLES ***/
+body {
+	width: 100%;
+	height: 1400px;
+}
+
+.bgimg-1 {
+	background-image: url("../images/bkggreen.png");
+	height: 90%;
+	position: relative;
+    opacity: 0.90;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	font-family:;
+	font-size: 30px;
+	color: ;
+
+}
+
+ 
+/***** GRID ******/
+
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.third-width{
+	width: 30%;
+}
+
+/**** HEADER ****/
+.
+nav {
+	display: inline-block;
+	background: #FFFFFF; 
+	float: left;
+	clear: all;
+}
+
+a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+
+#logo {
+	height: 200px;
+	width: 200px;
+
+}
+
+/*** Works Page ***/
+
+.imgbox {
+	height: 400px;
+	background-color: blue;
+}
+
