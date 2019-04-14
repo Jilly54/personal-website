@@ -49,23 +49,31 @@ nav {
 a {
 	font-size: 20px;
 	text-decoration: none;
-	color: #FFFFFF;
-	
+	color: #FFFFFF;	
 }
 
-#logo {
+.logo {
 	height: 200px;
 	width: 200px;
-
+	line-height: 300px
+	text-align: center;
 }
 
-/*** Works Page ***/
+/*** About ***/
 
-.imgbox {
-	height: 400px;
-	width: 400px;
-	float: left;
-	background-color: #73A696;
-	clear: all;
+p.aboutme {
+	height: 1000px
+	font-size: 30px;
+	box-shadow: 5px 5px;
+	border: 2px solid;
+	padding: 20px;
+	margin: 40px;
+}
+
+section.id= "welcome" {
+	height: 1200px;
+	padding: 20px;
+	margin: 20px;
+	
 }
 
