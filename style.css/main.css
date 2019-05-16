@@ -1,3 +1,18 @@
+/***** GRID ******/
+
+.full-width {
+	width: 100%;
+}
+
+.half-width {
+	width: 50%;
+}
+
+.third-width{
+	width: 30%;
+
+}
+
 /*** GLOBAL STYLES ***/
 body {
 	width: 100%;
@@ -14,66 +29,94 @@ body {
     background-size: cover;
 }
 
+section {
+	height: 400px;
+	width: 100%;
+	background: #9CD5B5;
+}
+
+.section-head{
+ 	height: 50px;
+ 	width: 100%;
+ 	background: #ffffff;
+ }
+
 h1 {
 	font-family:;
-	font-size: 30px;
-	color: ;
-
-}
-
- 
-/***** GRID ******/
-
-.full-width {
-	width: 100%;
-}
-
-.half-width {
-	width: 50%;
-}
-
-.third-width{
-	width: 30%;
-
-}
-
-/**** HEADER ****/
-.
-nav {
-	display: inline-block;
-	background: #FFFFFF; 
-	float: left;
-	clear: all;
-}
-
-a {
-	font-size: 20px;
-	text-decoration: none;
-	color: #FFFFFF;	
-}
-
-.logo {
-	height: 200px;
-	width: 200px;
-	line-height: 300px
+	font-size: 80px;
+	color: #20515A;
 	text-align: center;
 }
 
-/*** About ***/
+h2 {
+	font-family: ;
+	font-size:;
+	text-align: center;
+}
 
-p.aboutme {
-	height: 1000px
-	font-size: 30px;
-	box-shadow: 5px 5px;
-	border: 2px solid;
-	padding: 20px;
+p {
+	font-family:;
+	font-size:;
+	color: #20515A;
+}
+ 
+/**** HEADER ****/
+
+header {
+	background: #ffffff;
+	height: 50px;
+	width: 100%;
+}
+
+nav {
+	display: inline-block;
+	background: transparent; 
+	float: right;
+	clear: all;
+}
+
+nav ul a{
+	padding-right: 40px;
+	padding-left: 0px;
+}
+
+
+a {
+	font-size: 20px;
+	font-family: ;
+	text-decoration: none;
+	color: #17522C;	
+}
+
+/*** Main **/
+
+main {
+	height: 1000px;
+	width: 100%;
+}
+
+#banner-text{
+	height: 500px;
+	width: 100%;
+	padding-top: 100px;
+}
+
+/*** About ***/
+.about{
+	height: 350px;
+	width: 90%;
 	margin: 40px;
 }
 
-section.id= "welcome" {
-	height: 1200px;
-	padding: 20px;
-	margin: 20px;
-	
-}
 
+/*** Portfolio ***/
+
+
+
+/*** Contact ***/
+
+footer {
+	height: 200px;
+	width: 100%;
+	background: #9CD5B5;
+}
