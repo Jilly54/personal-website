@@ -17,7 +17,6 @@
 
 body {
 	width: 100%;
-	
 }
 
 #bgimg-1 { 
@@ -37,7 +36,7 @@ section {
 }
 
 .section-head{
- 	height: 50px;
+ 	height: 30px;
  	width: 100%;
  	background: #ffffff;
  }
@@ -97,7 +96,7 @@ a {
 	position: absolute;
 }
 
-/*** Main **/
+/*** Main ***/
 
 main {
 	height: 500px;
@@ -113,8 +112,10 @@ main {
  	height: 100px;
  }
  
-/*** About ***/
+/*** About Me ***/
+.about-me{
 
+}
 .about{
 	height: 400px;
 	margin: 40px;
@@ -125,8 +126,19 @@ main {
 
 /*** Portfolio ***/
 
+.portfolio ul li{
+	display: inline-block;
+}
 
-
+#img-container{
+	height: 400px;
+	width: 30%;
+	background: #ffffff;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+	list-style-type: none;
+}
 
 /*** Contact ***/
 
